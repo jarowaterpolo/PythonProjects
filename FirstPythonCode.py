@@ -3,6 +3,11 @@ from tkinter import *
 from tkinter import ttk
 
 secret = random.randint(1,10)
+maxstage = 1
+stage = 1
+stage_text = StringVar()
+
+correctCounter = 0
 
 root = Tk()
 root.geometry("400x100")
@@ -45,6 +50,14 @@ def submit(event=None):
         score += 1
         score_label.config(text=score)
         secret = random.randint(1,10)
+        correctCounter += 1
+        if correctCounter >= 10:
+            maxstage += 1
+            correctCounter = 0
+    elif guess > secret:
+        result_label.config(text="secret number is lower")
+    elif guess < secret:
+        result_label.config(text="secret number is higher")
     else:
         result_label.config(text="Try Again")
 
@@ -61,6 +74,20 @@ entry1.focus_force()
 # press Enter inside the entry
 entry1.bind("<Return>", submit)
 
-ttk.Button(frm, text="Quit", command=root.destroy).grid(column=4, row=2)
+def StageUp(event=None):
+    global maxstage
+    global stage
+    if stage + 1 <= maxstage:
+        stage += 1
+
+def StageDown(event=None):
+    global maxstage
+    global stage
+    if stage - 1 > 0:
+        stage -= 1
+
+ttk.Button(frm, text="-Stage", command=stage+=1).grid(column=4, row=1)
+ttk.Button(frm, text="+Stage", command=root.destroy).grid(column=6, row=1)
+ttk.Button(frm, text="Quit", command=root.destroy).grid(column=8, row=2)
 
 root.mainloop()

@@ -1,0 +1,1 @@
+C:\Users\jaron\AppData\Local\Python\pythoncore-3.14-64\python.exe C:\Users\jaron\Desktop\Jaro\Programmeren\Python_Projects\FirstPythonCode.py
