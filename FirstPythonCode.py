@@ -10,7 +10,7 @@ stage = 1
 correctCounter = 0
 
 root = Tk()
-root.geometry("605x115")
+root.geometry("650x115")
 
 style = ttk.Style()
 style.configure("My.TFrame", background="lightblue")
@@ -64,7 +64,6 @@ def submit(event=None):
         score_label.config(text=score)
         maxSecretNumber = 10**stage
         secret = random.randint(1,maxSecretNumber)
-        guess_label.config(text=f"min = 1, max = {maxSecretNumber}")
         correctCounter += 1
         if correctCounter >= 10:
             maxStage += 1
@@ -78,6 +77,7 @@ def submit(event=None):
         result_label.config(text="Try Again")
 
     input_text.set("")
+    guess_label.config(text=f"min = 1, max = {maxSecretNumber}")
 
 entry1 = ttk.Entry(
     frm,
