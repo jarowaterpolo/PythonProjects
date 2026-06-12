@@ -8,6 +8,8 @@
 "spotify:track:76HKOVWqsEg26SECtmw7Rz" # The way you make me feel - MJ
 "spotify:track:4jnFqNWeJCeCRHc4HCdxfd" # Remember the time - MJ
 "spotify:track:46eu3SBuFCXWsPT39Yg3tJ" # Dont stop till you get enough - MJ
+"spotify:track:48td6xvpokdYwvbl3JIiXP" # Love never felt so good - MJ
+"spotify:track:5BKKy9fIJL5uM9fz1SnqyP" # Chicago - MJ
 "spotify:track:2hGQDYmjkwTS0J7Q2bM2sF" # My mind is a prison - Alec Benjamin
 "spotify:track:2F27IYzFkhhrMChpfhVgPJ" # What have they done to us - Arcane
 "spotify:track:5r9OlaHzqlOKkFAv0q5Gm3" # Wasteland - Arcane

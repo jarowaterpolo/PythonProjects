@@ -1,8 +1,11 @@
 import os
 import subprocess
 import time
+import random
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
+import tkinter as tk
+from tkinter import messagebox
 
 # serach the folder where this Python-script is in
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -59,13 +62,26 @@ if devices['devices']:
     device_id = devices['devices'][0]['id']
     # print(device_id)
 
+# Hide the blank main window
+root = tk.Tk()
+root.withdraw()
+
+# QUICK POPUP: Ask right away before loading songs
+shuffle_choice = messagebox.askyesno(
+    title="Spotify Shuffler", 
+    message="Would you like to randomize the queue?"
+)
+
+if (shuffle_choice):
+    random.shuffle(QueueSongList)
+
 time.sleep(.1)
-
 sp.start_playback(device_id=device_id, uris=[QueueSongList[0]])
-
 time.sleep(1)
 
-for song_uri in QueueSongList[1:]:
+remaining_songs = QueueSongList[1:]
+
+for song_uri in remaining_songs:
     try:
         # this is the official command that talks to Spotify Premium!
         sp.add_to_queue(uri=song_uri)
