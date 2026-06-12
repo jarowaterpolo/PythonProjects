@@ -1,16 +1,11 @@
-import os
-import subprocess
-import time
-import random
-import spotipy
-from spotipy.oauth2 import SpotifyOAuth
-import tkinter as tk
-from tkinter import messagebox
+import Basic_Imports as bi
 
 # serach the folder where this Python-script is in
-script_dir = os.path.dirname(os.path.abspath(__file__))
+script_dir = bi.os.path.dirname(bi.os.path.abspath(__file__))
 
-file_path = os.path.join(script_dir, 'Spotify_Secret_User_Info.txt')
+project_dir = bi.os.path.dirname(script_dir)
+
+file_path = bi.os.path.join(project_dir, 'Txt_Files', 'Spotify_Secret_User_Info.txt')
 
 #fill in your Spotify Developer Dashboard user settings/info
 CLIENT_ID = ""
@@ -24,21 +19,21 @@ with open(file_path, 'r') as Spotify_User_file:
     REDIRECT_URI = lines[2].strip()
 
 print("\nChecking if Spotify is active...")
-Result = subprocess.run(["tasklist"], capture_output=True, text=True, check=True)
+Result = bi.subprocess.run(["tasklist"], capture_output=True, text=True, check=True)
 TaskList = Result.stdout
 
 if "Spotify.exe" not in TaskList:
-    os.startfile("Spotify.exe")
-    time.sleep(5)
+    bi.os.startfile("Spotify.exe")
+    bi.time.sleep(5)
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
+sp = bi.spotipy.Spotify(auth_manager=bi.SpotifyOAuth(
     client_id=CLIENT_ID,
     client_secret=CLIENT_SECRET,
     redirect_uri=REDIRECT_URI,
     scope="user-modify-playback-state user-read-playback-state"
 ))
 
-file_path = os.path.join(script_dir, 'Songs.txt')
+file_path = bi.os.path.join(project_dir, 'Txt_Files', 'Songs.txt')
 
 QueueSongList = []
 
@@ -63,21 +58,21 @@ if devices['devices']:
     # print(device_id)
 
 # Hide the blank main window
-root = tk.Tk()
+root = bi.Tk()
 root.withdraw()
 
 # QUICK POPUP: Ask right away before loading songs
-shuffle_choice = messagebox.askyesno(
+shuffle_choice = bi.messagebox.askyesno(
     title="Spotify Shuffler", 
     message="Would you like to randomize the queue?"
 )
 
 if (shuffle_choice):
-    random.shuffle(QueueSongList)
+    bi.random.shuffle(QueueSongList)
 
-time.sleep(.1)
+bi.time.sleep(.1)
 sp.start_playback(device_id=device_id, uris=[QueueSongList[0]])
-time.sleep(1)
+bi.time.sleep(1)
 
 remaining_songs = QueueSongList[1:]
 
@@ -86,7 +81,7 @@ for song_uri in remaining_songs:
         # this is the official command that talks to Spotify Premium!
         sp.add_to_queue(uri=song_uri)
         # print(f"succesfully added: {song_uri}")
-        time.sleep(0.2) # short pause to not overload the server
+        bi.time.sleep(0.2) # short pause to not overload the server
     except Exception as e:
         print(f"error by adding: {e}")
 
