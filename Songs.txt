@@ -1,0 +1,20 @@
+"spotify:track:3c7Ctlw9MKlIQPxRH3fOTt" # Man in the mirror - MJ
+"spotify:track:4cgjA7B4fJBHyB9Ya2bu0t" # Human nature - MJ
+"spotify:track:7woW97CfcWaKtuC6W5BP2K" # Heal the world - MJ
+"spotify:track:4GCGH6TJ69neckwITeBFXK" # Earth song - MJ
+"spotify:track:3AoeaZs8dFemFJr3JdzOL0" # You are not alone - MJ
+"spotify:track:1CgmY8fVN7kstVDZmsdM5k" # P.Y.T. - MJ
+"spotify:track:1Lhwn4PqeGpM4LTVUowW76" # You rock my world - MJ
+"spotify:track:76HKOVWqsEg26SECtmw7Rz" # The way you make me feel - MJ
+"spotify:track:4jnFqNWeJCeCRHc4HCdxfd" # Remember the time - MJ
+"spotify:track:46eu3SBuFCXWsPT39Yg3tJ" # Dont stop till you get enough - MJ
+"spotify:track:2hGQDYmjkwTS0J7Q2bM2sF" # My mind is a prison - Alec Benjamin
+"spotify:track:2F27IYzFkhhrMChpfhVgPJ" # What have they done to us - Arcane
+"spotify:track:5r9OlaHzqlOKkFAv0q5Gm3" # Wasteland - Arcane
+"spotify:track:0kjLUmIAgxVaZFjWDv5Z0x" # Spin the wheel - Arcane
+"spotify:track:540k1IRl5UPMhVhpu1LRQ3" # Sucker - Arcane
+"spotify:track:1clsf1YjKNHVUonDva4fnk" # Ashes and blood - Arcane
+"spotify:track:3qI94hINNNeb4S7xQi18lS" # Blame it on the boogie - The Jaksons
+"spotify:track:3NxWJWftvkstyxvb1pZlFo" # Teeth - 5SOS
+"spotify:track:0GX5oOKtU0nnx5OkhenW2i" # Closer - Ne-Yo
+"spotify:track:3Z2tPWiNiIpg8UMMoowHIk" # We are the world - U.S.A. for Africa
