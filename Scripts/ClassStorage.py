@@ -1,11 +1,26 @@
-# models.py
-class GameScore:
-    def __init__(self):
-        self.score = 0
-        self.stage = 1
+import Basic_Imports as bi
 
-    def increase_score(self):
-        self.score += 1
+class WaitTime:
+    def Wait(sec):
+        bi.time.sleep(sec)
 
-    def display(self):
-        return f"Stage: {self.stage} | Score: {self.score}"
+class Player:
+    def __init__(self, name, score):
+        self.name = name  # Attribute for the players name
+        self.score = score
+
+    def ScoreUp(self, amount):
+        self.score += amount
+
+    def ScoreDown(self, amount):
+        self.score -= amount
+
+    def Upgrade(self, gains):
+        if (self.score > 10):
+            self.ScoreDown(10)
+            print(f"\r{self.name} lost {10} score and gained 1 upgrade", end="", flush=True)
+            num = gains + 1
+            return num
+        else:
+            print ("not enough score")
+            return gains

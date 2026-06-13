@@ -1,10 +1,11 @@
 import Basic_Imports as bi
+from ClassStorage import WaitTime
 
-# serach the folder where this Python-script is in
+# search the folder where this Python-script is in
 script_dir = bi.os.path.dirname(bi.os.path.abspath(__file__))
-
+# find parent directory
 project_dir = bi.os.path.dirname(script_dir)
-
+# find where the text file is
 file_path = bi.os.path.join(project_dir, 'Txt_Files', 'Spotify_Secret_User_Info.txt')
 
 #fill in your Spotify Developer Dashboard user settings/info
@@ -24,7 +25,7 @@ TaskList = Result.stdout
 
 if "Spotify.exe" not in TaskList:
     bi.os.startfile("Spotify.exe")
-    bi.time.sleep(5)
+    WaitTime.Wait(5)
 
 sp = bi.spotipy.Spotify(auth_manager=bi.SpotifyOAuth(
     client_id=CLIENT_ID,
@@ -70,9 +71,9 @@ shuffle_choice = bi.messagebox.askyesno(
 if (shuffle_choice):
     bi.random.shuffle(QueueSongList)
 
-bi.time.sleep(.1)
+WaitTime.Wait(.1)
 sp.start_playback(device_id=device_id, uris=[QueueSongList[0]])
-bi.time.sleep(1)
+WaitTime.Wait(1)
 
 remaining_songs = QueueSongList[1:]
 
@@ -81,7 +82,7 @@ for song_uri in remaining_songs:
         # this is the official command that talks to Spotify Premium!
         sp.add_to_queue(uri=song_uri)
         # print(f"succesfully added: {song_uri}")
-        bi.time.sleep(0.2) # short pause to not overload the server
+        WaitTime.Wait(0.2) # short pause to not overload the server
     except Exception as e:
         print(f"error by adding: {e}")
 

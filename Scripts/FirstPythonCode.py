@@ -64,12 +64,17 @@ stage_label.grid(column=6, row=7)
 
 score = 0
 
+lastSavedLowerNumber = 1
+lastSavedHigherNumber = 10
+
 def submit(event=None):
     global score
     global secret
     global correctCounter
     global maxStage
     global maxSecretNumber
+    global lastSavedLowerNumber
+    global lastSavedHigherNumber
 
     try:
         guess = int(input_text.get())
@@ -87,6 +92,8 @@ def submit(event=None):
         maxSecretNumber = 10**stage
         secret = bi.random.randint(1,maxSecretNumber)
         correctCounter += 1 * stage**stage
+        lastSavedLowerNumber = 1
+        lastSavedHigherNumber = maxSecretNumber
         if correctCounter >= 10:
             maxStage += 1
             correctCounter = 0
@@ -96,13 +103,19 @@ def submit(event=None):
         stage_label.config(text=f"{stage}/{maxStage}")
     elif guess > secret:
         result_label.config(text=f"secret number is lower than {guess}")
+        if (lastSavedHigherNumber > guess):
+            lastSavedHigherNumber = guess
+        # guess_label.config(text=f"min = {lastSavedLowerNumber}, max = {lastSavedHigherNumber}")
     elif guess < secret:
         result_label.config(text=f"secret number is higher than {guess}")
+        if (lastSavedLowerNumber < guess):
+            lastSavedLowerNumber = guess
+        # guess_label.config(text=f"min = {lastSavedLowerNumber}, max = {lastSavedHigherNumber}")
     else:
         result_label.config(text="Try Again")
 
     input_text.set("")
-    guess_label.config(text=f"min = 1, max = {maxSecretNumber}")
+    guess_label.config(text=f"min = {lastSavedLowerNumber}, max = {lastSavedHigherNumber}")
 
 entry1 = bi.ttk.Entry(
     frm,
