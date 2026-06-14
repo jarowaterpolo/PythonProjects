@@ -22,5 +22,5 @@ class Player:
             num = gains + 1
             return num
         else:
-            print ("not enough score")
+            print (f"\rnot enough score", end="", flush=True)
             return gains

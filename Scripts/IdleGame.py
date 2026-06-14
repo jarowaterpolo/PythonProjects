@@ -20,8 +20,9 @@ background_thread.start()
 
 while True:
     # choice = input("Druk op Enter voor volgende seconde, of typ 'b' om upgrade te kopen (kost 10): ").lower()
-    choice = input().lower()
+    if bi.msvcrt.kbhit():
+        choice = bi.msvcrt.getch().decode('utf-8').lower()
     
-    if choice == 'b':
-        score_gain = p1.Upgrade(score_gain)
+        if choice == 'b':
+            score_gain = p1.Upgrade(score_gain)
 
