@@ -69,29 +69,11 @@ class IdleGame:
         self.label_score.config(text=f"Score: {self.p1.score}")
         self.label_score_gain.config(text=f"+{self.score_gain} Score /s")
 
-# Start het spel op
-if __name__ == "__main__":
+def Main():
     window = bi.Tk()
     game = IdleGame(window)
     window.mainloop()
 
 
-
-
-
-# score_gain = 1
-
-# # 1. This function runs continuously in the background
-
-
-background_thread = bi.threading.Thread(target=score_loop, daemon=True)
-background_thread.start()
-
-# while True:
-#     # choice = input("Druk op Enter voor volgende seconde, of typ 'b' om upgrade te kopen (kost 10): ").lower()
-#     if bi.msvcrt.kbhit():
-#         choice = bi.msvcrt.getch().decode('utf-8').lower()
-    
-#         if choice == 'b':
-#             score_gain = p1.Upgrade(score_gain)
-
+if __name__ == "__main__":
+    Main()
