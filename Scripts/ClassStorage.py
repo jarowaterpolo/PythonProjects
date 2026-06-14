@@ -16,7 +16,7 @@ class Player:
         self.score -= amount
 
     def Upgrade(self, gains):
-        if (self.score > 10):
+        if (self.score >= 10):
             self.ScoreDown(10)
             print(f"\r{self.name} lost {10} score and gained 1 upgrade", end="", flush=True)
             num = gains + 1

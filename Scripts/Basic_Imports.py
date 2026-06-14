@@ -1,3 +1,4 @@
+import sys
 import os
 import subprocess
 import time
@@ -8,5 +9,6 @@ import random
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
+from tkinter import Tk
 import threading
 import msvcrt
