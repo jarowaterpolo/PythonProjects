@@ -88,3 +88,5 @@ def Main():
             print(f"error by adding: {e}")
 
     print(f"Done! Check your Spotify queue there should be {len(QueueSongList)} for ya there\n")
+
+Main()
