@@ -89,4 +89,6 @@ def Main():
 
     print(f"Done! Check your Spotify queue there should be {len(QueueSongList)} for ya there\n")
 
-Main()
+
+if __name__ == "__main__":
+    Main()
