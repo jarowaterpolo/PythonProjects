@@ -15,12 +15,23 @@ class Player:
     def ScoreDown(self, amount):
         self.score -= amount
 
-    def Upgrade(self, gains):
-        if (self.score >= 10):
-            self.ScoreDown(10)
-            print(f"\r{self.name} lost {10} score and gained 1 upgrade", end="", flush=True)
-            num = gains + 1
+    def Upgrade1(self, gains, cost, upgradeMult):
+        if (self.score >= cost):
+            self.ScoreDown(cost)
+            print(f"\r{self.name} lost {cost} score and gained 1 upgrade1", end="", flush=True)
+            num = gains + 1 * upgradeMult
             return num
+        else:
+            print (f"\rnot enough score", end="", flush=True)
+            return gains
+        
+    def Upgrade2(self, gains, cost, upgradeMult):
+        if (self.score >= cost):
+            self.ScoreDown(cost)
+            print(f"\r{self.name} lost {cost} score and gained 1 upgrade2", end="", flush=True)
+            num = gains * 2
+            upgradeMult *= 2
+            return num, upgradeMult
         else:
             print (f"\rnot enough score", end="", flush=True)
             return gains

@@ -14,6 +14,12 @@ class IdleGame:
         print (f"{self.p1.name} now has {self.p1.score} score")
         self.score_gain = 1
 
+        self.costU1 = 10
+        self.costU2 = 100
+        self.U2Mult = 1
+
+        self.u1Bought = 0
+
         self.label_score = bi.Label(
             root, text="Score: 0", font=("Arial", 24, "bold")
         )
@@ -36,13 +42,23 @@ class IdleGame:
 
         self.u1_button = bi.Button(
             root,
-            text="Buy Upgrade (+1/s) [Cost: 10]",
+            text=f"Buy Upgrade (+{self.U2Mult}/s) [Cost: {self.costU1}]",
             font=("Arial", 14),
             command=self.u1_action,
             bg="#4CAF50",
             fg="white",
         )
         self.u1_button.pack(pady=10)
+
+        self.u2_button = bi.Button(
+            root,
+            text=f"Buy Upgrade (x2/s) [Cost: {self.costU2}]",
+            font=("Arial", 14),
+            command=self.u2_action,
+            bg="#4CAF50",
+            fg="white",
+        )
+        self.u2_button.pack(pady=10)
 
         self.background_thread = bi.threading.Thread(
             target=self.score_loop, daemon=True
@@ -61,13 +77,34 @@ class IdleGame:
         self.label_score.config(text=f"Score: {self.p1.score}")
 
     def u1_action(self):
-        new_gains = self.p1.Upgrade(self.score_gain)
+        if (self.p1.score >= self.costU1):
+            self.u1Bought += 1
+
+        new_gains = self.p1.Upgrade1(self.score_gain, self.costU1, self.U2Mult)
 
         if new_gains > self.score_gain:
             self.score_gain = new_gains
 
         self.label_score.config(text=f"Score: {self.p1.score}")
         self.label_score_gain.config(text=f"+{self.score_gain} Score /s")
+
+        if (self.u1Bought >= 10):
+            self.costU1 *= 2
+            self.u1_button.config(text=f"Buy Upgrade (+{self.U2Mult}/s) [Cost: {self.costU1}]")
+            self.u1Bought = 0
+
+
+    def u2_action(self):
+        (new_gains, self.U2Mult) = self.p1.Upgrade2(self.score_gain, self.costU2, self.U2Mult)
+
+        if new_gains > self.score_gain:
+            self.score_gain = new_gains
+
+        self.label_score.config(text=f"Score: {self.p1.score}")
+        self.label_score_gain.config(text=f"+{self.score_gain} Score /s")
+        self.costU2 *= 10
+        self.u1_button.config(text=f"Buy Upgrade (+{self.U2Mult}/s) [Cost: {self.costU1}]")
+        self.u2_button.config(text=f"Buy Upgrade (x2/s) [Cost: {self.costU2}]")
 
 def Main():
     window = bi.Tk()
