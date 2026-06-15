@@ -31,7 +31,8 @@ class Player:
             print(f"\r{self.name} lost {cost} score and gained 1 upgrade2", end="", flush=True)
             num = gains * 2
             upgradeMult *= 2
-            return num, upgradeMult
+            cost *= 10
+            return (num, upgradeMult, cost)
         else:
             print (f"\rnot enough score", end="", flush=True)
-            return gains
+            return (gains, upgradeMult, cost)
