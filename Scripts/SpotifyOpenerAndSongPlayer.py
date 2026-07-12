@@ -1,7 +1,7 @@
 import Basic_Imports as bi
 from ClassStorage import WaitTime
 
-def Main():
+def GetItems():
     # search the folder where this Python-script is in
     script_dir = bi.os.path.dirname(bi.os.path.abspath(__file__))
     # find parent directory
@@ -32,8 +32,13 @@ def Main():
         client_id=CLIENT_ID,
         client_secret=CLIENT_SECRET,
         redirect_uri=REDIRECT_URI,
-        scope="user-modify-playback-state user-read-playback-state"
+        scope="user-modify-playback-state user-read-playback-state playlist-read-private playlist-modify-public playlist-modify-private"
     ))
+
+    return sp, project_dir
+
+def Main():
+    (sp, project_dir) = GetItems()
 
     file_path = bi.os.path.join(project_dir, 'Txt_Files', 'Songs.txt')
 
@@ -89,6 +94,57 @@ def Main():
 
     print(f"Done! Check your Spotify queue there should be {len(QueueSongList)} for ya there\n")
 
+     # QUICK POPUP: Ask right away before loading songs
+    doCreatePlaylist = bi.messagebox.askyesno(
+        title="Create Playlist", 
+        message="Would you like to create a playlist?"
+    )
+
+    if (doCreatePlaylist):
+        CreatePlaylist(sp, QueueSongList)
+
+def CreatePlaylist(sp, QueueSongList):
+    playlist_name = "Spotipy Playlist"
+
+    DeletePlaylistByName(sp, playlist_name)
+
+    # 2. Gecorrigeerde aanroep (Maakt gebruik van /v1/me/playlists in plaats van /v1/users/{id}/playlists)
+    try:
+        new_playlist = sp.current_user_playlist_create(
+            name=playlist_name, 
+            public=False, 
+            description="Created programmatically using Spotipy!"
+        )
+        playlist_id = new_playlist["id"]
+        print(f"Afspeellijst succesvol aangemaakt! ID: {playlist_id}")
+    except Exception as e:
+        print(f"Fout bij het aanmaken van de afspeellijst: {e}")
+        return
+
+    # 3. Voeg de nummers toe (In plukjes van maximaal 100 om API-fouten te voorkomen)
+    if QueueSongList:
+        print("Nummers toevoegen aan de afspeellijst...")
+        for i in range(0, len(QueueSongList), 100):
+            chunk = QueueSongList[i:i + 100]
+            try:
+                sp.playlist_add_items(playlist_id=playlist_id, items=chunk)
+                print(f"Groep toegevoegd ({len(chunk)} nummers)...")
+                WaitTime.Wait(0.2)
+            except Exception as e:
+                print(f"Fout bij toevoegen van deze groep nummers: {e}")
+                
+    print("Alles klaar!")
+
+def DeletePlaylistByName(sp, playlist_name):
+    # 1. Controleer op en verwijder bestaande afspeellijsten met dezelfde naam
+    try:
+        playlists = sp.current_user_playlists()
+        for playlist in playlists['items']:
+            if playlist['name'] == playlist_name:
+                print(f"Oude afspeellijst '{playlist_name}' gevonden. Wordt verwijderd...")
+                sp.current_user_unfollow_playlist(playlist_id=playlist['id'])
+    except Exception as e:
+        print(f"Kon oude afspeellijsten niet controleren: {e}")
 
 if __name__ == "__main__":
     Main()
