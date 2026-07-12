@@ -1,0 +1,231 @@
+"spotify:track:2tpWsVSb9UEmDRxAl1zhX1" # Counting Stars - OneRepublic
+"spotify:track:2iUXsYOEPhVqEBwsqP70rE" # Youngblood - 5 Seconds of Summer
+"spotify:track:7wMq5n8mYSKlQIGECKUgTX" # Hall of Fame (feat. will.i.am) - The Script, will.i.am
+"spotify:track:7JJmb5XwzOO8jgpou264Ml" # There's Nothing Holdin' Me Back - Shawn Mendes
+"spotify:track:08bNPGLD8AhKpnnERrAc6G" # FRIENDS - Marshmello, Anne-Marie
+"spotify:track:3QGsuHI8jO1Rx4JWLUh9jd" # Treat You Better - Shawn Mendes
+"spotify:track:0wI7QkCcs8FUQE1OkXUIqd" # Scars To Your Beautiful - Alessia Cara
+"spotify:track:23L5CiUhw2jV1OIMwthR3S" # In the Name of Love - Martin Garrix, Bebe Rexha
+"spotify:track:0pqnGHJpmpxLKifKRmU6WP" # Believer - Imagine Dragons
+"spotify:track:09IStsImFySgyp0pIQdqAc" # The Middle - Zedd, Maren Morris, Grey
+"spotify:track:76cy1WJvNGJTj78UqeA5zr" # IDGAF - Dua Lipa
+"spotify:track:6RUKPb4LETWmmr3iAEQktW" # Something Just Like This - The Chainsmokers, Coldplay
+"spotify:track:2BgEsaKNfHUdlh97KmvFyo" # 2002 - Anne-Marie
+"spotify:track:3P3pw6C19j31Rnzgo3JG7o" # Perfect Strangers - Jonas Blue, JP Cooper
+"spotify:track:1u8c2t2Cy7UBoG4ArRcF5g" # Blank Space - Taylor Swift
+"spotify:track:6bLopGnirdrilrpdVB6Um1" # The Greatest - Sia
+"spotify:track:4VrWlk8IQxevMvERoX08iC" # Chandelier - Sia
+"spotify:track:2K87XMYnUMqLcX3zvtAF4G" # Drag Me Down - One Direction
+"spotify:track:6kwAbEjseqBob48jCus7Sz" # Elastic Heart - Sia
+"spotify:track:2vwlzO0Qp8kfEtzTsCXfyE" # Wrecking Ball - Miley Cyrus
+"spotify:track:3dYD57lRAUcMHufyqn9GcI" # Take Me To Church - Hozier
+"spotify:track:4esOae7i4rqTbAu9o5Pxco" # Girl on Fire - Alicia Keys
+"spotify:track:3e7sxremeOE3wTySiOhGiP" # Dusk Till Dawn (feat. Sia) - Radio Edit - ZAYN, Sia
+"spotify:track:7yq4Qj7cqayVTp3FF9CWbm" # Riptide - Vance Joy
+"spotify:track:1Yk0cQdMLx5RzzFTYwmuld" # Hello - Adele
+"spotify:track:3U4isOIWM3VvDubwSI3y7a" # All of Me - John Legend
+"spotify:track:6O5TrlFWTYvznd9fMC0VvU" # When We Were Young - Adele
+"spotify:track:0qOnSQQF0yzuPWsXrQ9paz" # Stereo Hearts (feat. Adam Levine) - Gym Class Heroes, Adam Levine
+"spotify:track:6DEMMeWXfmFAXgDUMMzeg6" # All I Ask - Adele
+"spotify:track:2CvOqDpQIMw69cCzWqr5yr" # Halo - Beyoncé
+"spotify:track:3by8IfnW9dZ2t4pZw1WVxz" # Stone Cold - Demi Lovato
+"spotify:track:1XGmzt0PVuFgQYYnV2It7A" # Payphone - Maroon 5, Wiz Khalifa
+"spotify:track:4gbVRS8gloEluzf0GzDOFc" # Maps - Maroon 5
+"spotify:track:6cpk00i5TxCqSeqNi2HuIe" # One More Night - Maroon 5
+"spotify:track:0EcQcdcbQeVJn9fknj44Be" # I Like Me Better - LAUV
+"spotify:track:7x5xYW5W42OGPAdHUyyguy" # Locked Away (feat. Adam Levine) - R. City, Adam Levine
+"spotify:track:378iszndTZAR4dH8kwsLC6" # Cheap Thrills (feat. Sean Paul) - Sia, Sean Paul
+"spotify:track:37sINbJZcFdHFAsVNsPq1i" # Superheroes - The Script
+"spotify:track:213x4gsFDm04hSqIUkg88w" # On Top Of The World - Imagine Dragons
+"spotify:track:0Qh38w01QRXK6KHIv0e3hb" # What About Us - P!nk
+"spotify:track:7xoUc6faLbCqZO6fQEYprd" # One Last Time - Ariana Grande
+"spotify:track:6SKwQghsR8AISlxhcwyA9R" # Marry You - Bruno Mars
+"spotify:track:7vu0JkJh0ldukEYbTVcqd0" # Issues - Julia Michaels
+"spotify:track:5O2P9iiztwhomNh8xkR9lJ" # Night Changes - One Direction
+"spotify:track:0cqRj7pUJDkTCEsJkx8snD" # Shake It Off - Taylor Swift
+"spotify:track:32OlwWuMpZ6b0aN2RZOeMS" # Uptown Funk (feat. Bruno Mars) - Mark Ronson, Bruno Mars
+"spotify:track:4yNk9iz9WVJikRFle3XEvn" # golden hour - JVKE
+"spotify:track:34VhnIUNsHQFDyxhymwnZl" # golden hour - JVKE
+"spotify:track:4Dvkj6JhhA12EX05fT7y2e" # As It Was - Harry Styles
+"spotify:track:4cktbXiXOapiLBMprHFErI" # Memories - Maroon 5
+"spotify:track:6HuHyXviAdpmnQu73JHfBz" # Ghost Town - Benson Boone
+"spotify:track:4wcBRRpIfesgcyUtis7PEg" # 1 step forward, 3 steps back - Olivia Rodrigo
+"spotify:track:1kuGVB7EU95pJObxwvfwKS" # vampire - Olivia Rodrigo
+"spotify:track:0KAiuUOrLTIkzkpfpn9jb9" # Drive By - Train
+"spotify:track:5CZ40GBx1sQ9agT82CLQCT" # traitor - Olivia Rodrigo
+"spotify:track:2tGvwE8GcFKwNdAXMnlbfl" # happier - Olivia Rodrigo
+"spotify:track:5JCoSi02qi3jJeHdZXMmR8" # favorite crime - Olivia Rodrigo
+"spotify:track:0MMyJUC3WNnFS1lit5pTjk" # jealousy, jealousy - Olivia Rodrigo
+"spotify:track:5wANPM4fQCJwkGd4rN57mH" # drivers license - Olivia Rodrigo
+"spotify:track:6SRsiMl7w1USE4mFqrOhHC" # brutal - Olivia Rodrigo
+"spotify:track:2QjOHCTQ1Jl3zawyYOpxh6" # Sweater Weather - The Neighbourhood
+"spotify:track:2iUmqdfGZcHIhS3b9E9EWq" # Everybody Talks - Neon Trees
+"spotify:track:43zdsphuZLzwA9k4DJhU0I" # when the party's over - Billie Eilish
+"spotify:track:5CLGzJsGqhCEECcpnFQA8x" # These Days (feat. Jess Glynne, Macklemore & Dan Caplen) - Rudimental, Jess Glynne, Macklemore, Dan Caplen
+"spotify:track:2nRaAETFbe39JVCFSVDkcc" # I'll Be Waiting - Cian Ducrot
+"spotify:track:6RtPijgfPKROxEzTHNRiDp" # Rude - MAGIC!
+"spotify:track:27tNWlhdAryQY04Gb2ZhUI" # Roar - Katy Perry
+"spotify:track:3U5JVgI2x4rDyHGObzJfNf" # Unwritten - Natasha Bedingfield
+"spotify:track:2DgdHcjWmO3qd50RzuBLgZ" # House of Memories - Panic! At The Disco
+"spotify:track:2FY7b99s15jUprqC0M5NCT" # Natural - Imagine Dragons
+"spotify:track:3CRDbSIZ4r5MsZ0YwxuEkn" # Stressed Out - Twenty One Pilots
+"spotify:track:7MXVkk9YMctZqd1Srtv4MB" # Starboy - The Weeknd, Daft Punk
+"spotify:track:7kUljt0NM5sISL3OGNVxYd" # Royalty - Egzod, Maestro Chives
+"spotify:track:2yG6G1SkKYWfKhyWEkwo6y" # Different Kind Of Beautiful - Alec Benjamin
+"spotify:track:2bL2gyO6kBdLkNSkxXNh6x" # Animals - Maroon 5
+"spotify:track:0lYBSQXN6rCTvUZvg9S0lU" # Let Me Love You - DJ Snake, Justin Bieber
+"spotify:track:2f0pn9DkEJwAzXApnFh5cr" # Someone To You - BANNERS
+"spotify:track:6XjDF6nds4DE2BBbagZol6" # Gata Only - FloyyMenor, Cris MJ
+"spotify:track:0tgVpDi06FyKpA1z0VMD4v" # Perfect - Ed Sheeran
+"spotify:track:2iuZJX9X9P0GKaE93xcPjk" # Sugar - Maroon 5
+"spotify:track:1mXVgsBdtIVeCLJnSnmtdV" # Too Good At Goodbyes - Sam Smith
+"spotify:track:009ImBOrIUlWgla8U05RAC" # Unconditionally - Katy Perry
+"spotify:track:2J2Z1SkXYghSajLibnQHOa" # Unstoppable - Sia
+"spotify:track:3cU2wBxuV6nFiuf6PJZNlC" # Dear Future Husband - Meghan Trainor
+"spotify:track:2qxmye6gAegTMjLKEBoR3d" # Let Me Down Slowly - Alec Benjamin
+"spotify:track:5jE48hhRu8E6zBDPRSkEq7" # All About That Bass - Meghan Trainor
+"spotify:track:630sXRhIcfwr2e4RdNtjKN" # Rewrite The Stars - Zac Efron, Zendaya
+"spotify:track:7pT6WSg4PCt4mr5ZFyUfsF" # If We Have Each Other - Alec Benjamin
+"spotify:track:2xGjteMU3E1tkEPVFBO08U" # This Is Me - Keala Settle, The Greatest Showman Ensemble
+"spotify:track:0Gl5s8IhMmQE5YQwM8Qx1J" # Never Enough - Loren Allred
+"spotify:track:0u2P5u6lvoDfwTYjAADbn4" # lovely (with Khalid) - Billie Eilish, Khalid
+"spotify:track:1J14CdDAvBTE1AJYUOwl6C" # Arcade - Duncan Laurence
+"spotify:track:0rTV5WefWd1J3OwIheTzxM" # Talk - Khalid, Disclosure
+"spotify:track:5Ohxk2dO5COHF1krpoPigN" # Sign of the Times - Harry Styles
+"spotify:track:1v6svH1Fyx9C1nIt1mA2DT" # All I Want - Olivia Rodrigo, Disney
+"spotify:track:7l97ElWmIdVHWUaOeeU5ZC" # that way - Tate McRae
+"spotify:track:4nyF5lmSziBAt7ESAUjpbx" # I miss you, I’m sorry - Gracie Abrams
+"spotify:track:55Am8neGJkdj2ADaM3aw5H" # Train Wreck - James Arthur
+"spotify:track:5uCax9HTNlzGybIStD3vDh" # Say You Won't Let Go - James Arthur
+"spotify:track:2gMXnyrvIjhVBUZwvLZDMP" # Before You Go - Lewis Capaldi
+"spotify:track:3ph5NwTA3MxwjOrU0hcxB4" # Control - Zoe Wees
+"spotify:track:0otRX6Z89qKkHkQ9OqJpKt" # Car's Outside - James Arthur
+"spotify:track:0DuWDLjriRPjDRoPgaCslY" # Love In The Dark - Adele
+"spotify:track:05ZA9WD25P4ynY41Bd15Km" # All I Want - Love That Lasts Mix - Olivia Rodrigo
+"spotify:track:04sN26COy28wTXYj3dMoiZ" # Bored - Billie Eilish
+"spotify:track:4RVwu0g32PAqgUiJoXsdF8" # Happier Than Ever - Billie Eilish
+"spotify:track:32BeYxKPrig1LefHsC0Xuo" # Happier Than Ever - Edit - Billie Eilish
+"spotify:track:50kpGaPAhYJ3sGmk6vplg0" # Love Yourself - Justin Bieber
+"spotify:track:4Wui4miiL1JR3QqWcbcKwD" # Love Me Like You Do - Ellie Goulding
+"spotify:track:65uoaqX5qcjXZRheAj1qQT" # Dernière danse - Indila
+"spotify:track:2Yy0FsAV2I5VXU4xpph2WN" # Stay - Rihanna, Mikky Ekko
+"spotify:track:46IZ0fSY2mpAiktS3KOqds" # Easy On Me - Adele
+"spotify:track:4pqwGuGu34g8KtfN8LDGZm" # Voilà - André Rieu, Johann Strauss Orchestra, Emma Kok
+"spotify:track:2rbDhOo9Fh61Bbu23T2qCk" # Always Remember Us This Way - Lady Gaga
+"spotify:track:17phhZDn6oGtzMe56NuWvj" # Lose Control - Teddy Swims
+"spotify:track:3JvKfv6T31zO0ini8iNItO" # Another Love - Tom Odell
+"spotify:track:69vToJ9BMbbLlFZo7k7A7B" # You Are The Reason - Calum Scott
+"spotify:track:3bNv3VuUOKgrf5hu3YcuRo" # Someone Like You - Adele
+"spotify:track:0tV8pOpiNsKqUys0ilUcXz" # Rise Up - Andra Day
+"spotify:track:0YywjDvFudcaHG74NuWISy" # People Help the People - Birdy
+"spotify:track:4KlL5Bwlm4yHYxr0B2rHci" # Heal - Tom Odell
+"spotify:track:1SKPmfSYaPsETbRHaiA18G" # Somewhere Only We Know - Keane
+"spotify:track:5nXCKYd6lt9gO7AhZPv6Wh" # Out Of Reach - BoyWithUke
+"spotify:track:3bidbhpOYeV4knp8AIu8Xn" # Can't Hold Us (feat. Ray Dalton) - Macklemore, Ryan Lewis, Macklemore & Ryan Lewis, Ray Dalton
+"spotify:track:1ZV7fPAf98E8sdiZQcBdid" # Marry That Girl (Radio Edit) - Queenston
+"spotify:track:58zsLZPvfflaiIbNWoA22O" # Human - Rag'n'Bone Man
+"spotify:track:5vjLSffimiIP26QG5WcN2K" # Hold On - Chord Overstreet
+"spotify:track:1oew3nFNY3vMacJAsvry0S" # Me And My Broken Heart - Rixton
+"spotify:track:3RiPr603aXAoi4GHyXx0uy" # Hymn for the Weekend - Coldplay
+"spotify:track:2jQiSYrwJehQAcuaaQrXnS" # Friends - Chase Atlantic
+"spotify:track:4Yxc55NX3tAXC2mHRAhtcW" # All I Want - From "High School Musical: The Musical: The Series" - Olivia Rodrigo, Disney
+"spotify:track:27rdGxbavYJeBphck5MZAF" # Nothing Breaks Like a Heart (feat. Miley Cyrus) - Mark Ronson, Miley Cyrus
+"spotify:track:65YsalQBmQCzIPaay72CzQ" # Diamonds - Rihanna
+"spotify:track:6mQLN3zRtAp6ovjusyYKrV" # Rewrite The Stars (with James Arthur & Anne-Marie) - James Arthur, Anne-Marie
+"spotify:track:4nVBt6MZDDP6tRVdQTgxJg" # Story of My Life - One Direction
+"spotify:track:0AS63m1wHv9n4VVRizK6Hc" # Mercy - Shawn Mendes
+"spotify:track:0tBO7rI1qv2LdDRkN8siTB" # I Wanna Be Yours - Speed Up - Dj Agos
+"spotify:track:3EPXxR3ImUwfayaurPi3cm" # Be Alright - Dean Lewis
+"spotify:track:4ztdjZ2t7BVo5DLIFQBdJh" # Jericho - Iniko
+"spotify:track:3ee8Jmje8o58CHK66QrVC2" # SAD! - XXXTENTACION
+"spotify:track:0xmjwnQ3FNE6HuWCt2nHdZ" # Where Is The Love? - Black Eyed Peas
+"spotify:track:04aAxqtGp5pv12UXAg4pkq" # Centuries - Fall Out Boy
+"spotify:track:4YEsNhGhXXtefznetrzhMb" # Afraid Of The Dark - Chef'Special
+"spotify:track:0KKkJNfGyhkQ5aFogxQAPU" # That's What I Like - Bruno Mars
+"spotify:track:6b8Be6ljOzmkOmFslEb23P" # 24K Magic - Bruno Mars
+"spotify:track:4HlFJV71xXKIGcU3kRyttv" # Hey, Soul Sister - Train
+"spotify:track:3DdKhezSF66UidnM3SpEpq" # My Way - The voice of Holland, Emma Boertien
+"spotify:track:4ZtFanR9U6ndgddUvNcjcG" # good 4 u - Olivia Rodrigo
+"spotify:track:3PfIrDoz19wz7qK7tYeu62" # Don't Start Now - Dua Lipa
+"spotify:track:2RttW7RAu5nOAfq6YFvApB" # Happier - Ed Sheeran
+"spotify:track:7yq4Qj7cqayVTp3FF9CWbm" # Riptide - Vance Joy
+"spotify:track:7npLlaPu9Mfno8hjk5OagD" # Girls Like You - Maroon 5
+"spotify:track:4c2W3VKsOFoIg2SFaO6DY5" # Your Song - Rita Ora
+"spotify:track:2Rpxbbx0rbA7leuAshGEH3" # Fine - Kyle Hume
+"spotify:track:2dylnPaUPcOvzBLokj8DZa" # Stargazing - Myles Smith
+"spotify:track:6lg0ZagTCrEnuVSoOz8I5W" # SOS - Robert Grace
+"spotify:track:0GxQ1A5L9xnMOytbP6eKBG" # What Lovers Do (feat. SZA) - Maroon 5, SZA
+"spotify:track:4rJHH484bHZDts51o5i2CB" # I'd Rather Pretend - Bryant Barnes
+"spotify:track:69dXVFCMiz3SL1L7M24NdX" # bad vibes forever - XXXTENTACION, PnB Rock, Trippie Redd
+"spotify:track:2Z8WuEywRWYTKe1NybPQEW" # Ride - Twenty One Pilots
+"spotify:track:7xrEnNo99wrmIs8ZK3RZMK" # WE PRAY - Coldplay, Little Simz, Burna Boy, Elyanna, TINI
+"spotify:track:273QnyCvJB65rScHJ1nPZb" # Make You Feel My Love - Adele
+"spotify:track:2xql0pid3EUwW38AsywxhV" # Reflections - The Neighbourhood
+"spotify:track:4VuS959DSpr82t3qBqCrWG" # Supermarket Flowers - Ed Sheeran
+"spotify:track:5fVZC9GiM4e8vu99W0Xf6J" # How to Save a Life - The Fray
+"spotify:track:2TeLIzFBe3hxkPR5FIQZut" # Like I Can - Sam Smith
+"spotify:track:2ihCaVdNZmnHZWt0fvAM7B" # Little Talks - Of Monsters and Men
+"spotify:track:7g3g00RKlqSIe2G8KKCgsE" # Killswitch Lullaby - Flawed Mangoes
+"spotify:track:1ATLkckuO7t1xb6KY4s72I" # Dramamine - Flawed Mangoes
+"spotify:track:3RhFwpzEmldHJFA2jGNhQ5" # Was It Real - Ben Rodrigues
+"spotify:track:52okn5MNA47tk87PeZJLEL" # Let You Down - NF
+"spotify:track:01TnVDiet1DFTsyWKUKovl" # NUMB - XXXTENTACION
+"spotify:track:3UN6cIn3VIyg0z1LCuFSum" # Without You (feat. Usher) - David Guetta, USHER
+"spotify:track:0arakLpzowyd8DmwJmUpoU" # I DONT WANNA BE HERE - Nazaki, Daniel Javan, Rivio
+"spotify:track:4jvjzW7Hm0yK4LvvE0Paz9" # Falling Down - Bonus Track - Lil Peep, XXXTENTACION
+"spotify:track:3CIyK1V4JEJkg02E4EJnDl" # Enemy (with JID) - from the series Arcane League of Legends - Imagine Dragons, JID, Arcane, League of Legends
+"spotify:track:3DamFFqW32WihKkTVlwTYQ" # Fireflies - Owl City
+"spotify:track:1clsf1YjKNHVUonDva4fnk" # To Ashes and Blood (from the series Arcane League of Legends) - Woodkid, Arcane, League of Legends
+"spotify:track:5r9OlaHzqlOKkFAv0q5Gm3" # Wasteland (from the series Arcane League of Legends) - Arcane, Royal & the Serpent
+"spotify:track:2F27IYzFkhhrMChpfhVgPJ" # What Have They Done To Us (from the series Arcane League of Legends) - Arcane, Mako, Grey
+"spotify:track:5oi8dkse5YTnTSWm3XgMET" # Remember Me (from the series Arcane League of Legends) - d4vd, Arcane, League of Legends
+"spotify:track:47UFoOuvrkt4khE7c5aap6" # Cradles - Sub Urban
+"spotify:track:3Cvf2x4u7BVPDOKNXesEgj" # King of My Castle - Wamdue Project
+"spotify:track:0ugJ012NKkZWS2G2Smdwax" # Would That Make You Love Me? - SHRK, CORBAL, Shiloh Dynasty
+"spotify:track:3QaPy1KgI7nu9FJEQUgn6h" # WILDFLOWER - Billie Eilish
+"spotify:track:2qJVWASyvSOwSeSyX2pT5m" # Let Her Go - Passenger
+"spotify:track:5FVd6KXrgO9B3JPmC8OPst" # Do I Wanna Know? - Arctic Monkeys
+"spotify:track:2prqm9sPLj10B4Wg0wE5x9" # BLUE - Billie Eilish
+"spotify:track:7hDVYcQq6MxkdJGweuCtl9" # ocean eyes - Billie Eilish
+"spotify:track:1WsEgieHsWWndAzLkmV105" # hostage - Billie Eilish
+"spotify:track:4vjeDDU4DmeNuMjg6XzOFg" # breakdown - Robert Grace
+"spotify:track:4ZJ4vzLQekI0WntDbanNC7" # Pink Skies - Zach Bryan
+"spotify:track:55h7vJchibLdUkxdlX3fK7" # Treasure - Bruno Mars
+"spotify:track:61dCUoMCg28qEBzrW6htYM" # Rather Be (feat. Jess Glynne) - Clean Bandit, Jess Glynne
+"spotify:track:1sh6lL6cmlcwhqZKGiKBua" # I Could Be The One (Avicii Vs. Nicky Romero) - Radio Edit - Avicii, Nicky Romero
+"spotify:track:2M9ULmQwTaTGmAdXaXpfz5" # Billionaire (feat. Bruno Mars) - Travie McCoy, Bruno Mars
+"spotify:track:3AoeaZs8dFemFJr3JdzOL0" # You Are Not Alone - Michael Jackson
+"spotify:track:7mDTvYD2ieE4Q28XFziMfJ" # Cry - Cigarettes After Sex
+"spotify:track:57AlxjJrWpWg0vF7eGksir" # Start Over (feat. NF) - FLAME, NF
+"spotify:track:0mjAU3yKR1QnXnHtjGJqTM" # Rescue Me - OneRepublic
+"spotify:track:5W3cjX2J3tjhG8zb6u0qHn" # Harder, Better, Faster, Stronger - Daft Punk
+"spotify:track:0DiWol3AO6WpXZgp0goxAV" # One More Time - Daft Punk
+"spotify:track:2cGxRwrMyEAp8dEbuZaVv6" # Instant Crush (feat. Julian Casablancas) - Daft Punk, Julian Casablancas
+"spotify:track:6ECp64rv50XVz93WvxXMGF" # This Love - Maroon 5
+"spotify:track:51rfRCiUSvxXlCSCfIztBy" # I Love You, I'm Sorry - Gracie Abrams
+"spotify:track:5vXPLxljVKyHDHuv3kIuKV" # Survive - Lewis Capaldi
+"spotify:track:2RkZ5LkEzeHGRsmDqKwmaJ" # Ordinary - Alex Warren
+"spotify:track:6aybzjLxocD14YySwF3aus" # Burning Down - Alex Warren
+"spotify:track:7ne4VBA60CxGM75vw0EYad" # That’s So True - Gracie Abrams
+"spotify:track:1wOp7yTVyH176bW1z9WAiv" # Carry You Home - Alex Warren
+"spotify:track:1ZMiCix7XSAbfAJlEZWMCp" # Falling - Harry Styles
+"spotify:track:4lLtanYk6tkMvooU0tWzG8" # Grenade - Bruno Mars
+"spotify:track:5l6hpyTGBK0LAAxgPnqTQL" # Look After You - The Fray
+"spotify:track:5E5MqaS6eOsbaJibl3YeMZ" # Homesick - Dua Lipa
+"spotify:track:0iO2iCAjtX0t5duvczNQt6" # Oscar Winning Tears. - RAYE
+"spotify:track:1zu2GKHPJIsUu80SUJX4H4" # Devil Doesn’t Bargain - Alec Benjamin
+"spotify:track:5jsw9uXEGuKyJzs0boZ1bT" # Stitches - Shawn Mendes
+"spotify:track:0bM09wrsJLZmxEGDdLctIu" # RUN! - Daniyel
+"spotify:track:1qbmS6ep2hbBRaEZFpn7BX" # Man I Need - Olivia Dean
+"spotify:track:1Q7EgiMOuwDcB0PJC6AzON" # Best Part (feat. H.E.R.) - Daniel Caesar, H.E.R.
+"spotify:track:3FAJ6O0NOHQV8Mc5Ri6ENp" # Heartbreak Anniversary - GIVĒON
+"spotify:track:4W3z0jlvHobe740IG2XaFt" # What About Us - Davina Michelle
+"spotify:track:0JWaEkQmU8oaSukOBCbrJC" # Ze Huilt Maar Ze Lacht - Maan
+"spotify:track:6Up545NUflOiXo8cEraH49" # You Say - Lauren Daigle
+"spotify:track:12bYYQaLqHliSXvRIYlq8G" # I Just Might - Bruno Mars
+"spotify:track:4pryE6cN2gFL1FVF5fYINl" # Leave The Door Open - Bruno Mars, Anderson .Paak, Silk Sonic
+"spotify:track:47Slg6LuqLaX0VodpSCvPt" # Just the Way You Are - Bruno Mars
+"spotify:track:6AXh6IRCj8c2oKkWXY1MDQ" # Sick of Myself - 5 Seconds of Summer
+"spotify:track:4Of7rzpRpV1mWRbhp5rAqG" # Bruises - Lewis Capaldi
+"spotify:track:4btFHqumCO31GksfuBLLv3" # Overpass Graffiti - Ed Sheeran
+"spotify:track:3wJmcmAh2YAfDSKQR8o1XS" # In Your Arms - Chef'Special

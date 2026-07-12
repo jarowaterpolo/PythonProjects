@@ -40,7 +40,9 @@ def GetItems():
 def Main():
     (sp, project_dir) = GetItems()
 
-    file_path = bi.os.path.join(project_dir, 'Txt_Files', 'Songs.txt')
+    song_text_files = ['Songs.txt', 'My_Song_URIs.txt']
+
+    file_path = bi.os.path.join(project_dir, 'Txt_Files', song_text_files[1])
 
     QueueSongList = []
 
@@ -88,7 +90,7 @@ def Main():
             # this is the official command that talks to Spotify Premium!
             sp.add_to_queue(uri=song_uri)
             # print(f"succesfully added: {song_uri}")
-            WaitTime.Wait(0.2) # short pause to not overload the server
+            WaitTime.Wait(0.6) # short pause to not overload the server
         except Exception as e:
             print(f"error by adding: {e}")
 

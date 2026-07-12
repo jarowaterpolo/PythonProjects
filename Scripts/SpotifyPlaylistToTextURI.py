@@ -1,23 +1,34 @@
 import Basic_Imports as bi
 from ClassStorage import WaitTime
+from SpotifyOpenerAndSongPlayer import GetItems
 
 def SavePlaylistToTxt(sp, playlist_id, output_file_path):
     offset = 0
     limit = 100
+    total_tracks_saved = 0
     
     # Open het bestand om in te schrijven (met UTF-8 om rare tekens in songtitels te ondersteunen)
-    with open(output_file_path, 'w', encoding='utf-8') as f:
+    with open(output_file_path, 'w', encoding='utf-8') as songs_file:
         while True:
-            # Vraag de nummers op inclusief titel en artiesten
+            # Vraag de nummers op (fields is hier weggehaald voor stabiliteit)
             results = sp.playlist_items(
                 playlist_id=playlist_id,
-                fields="items(track(uri, name, artists)),next",
                 limit=limit,
                 offset=offset
             )
 
-            for item in results['items']:
-                track = item.get('track')
+            # Controleer of we überhaupt een antwoord hebben gekregen
+            if not results:
+                break
+
+            items = results.get('items', [])
+
+            # Als deze pagina leeg is, stoppen we direct
+            if not items:
+                break
+
+            for item in items:
+                track = item.get('track') or item.get('item')
                 if track and track.get('uri'):
                     uri = track['uri']
                     song_name = track['name']
@@ -31,18 +42,22 @@ def SavePlaylistToTxt(sp, playlist_id, output_file_path):
                     line = f'"{uri}" # {song_name} - {artists_string}\n'
                     
                     # Schrijf de regel direct naar het tekstbestand
-                    f.write(line)
+                    songs_file.write(line)
+                    total_tracks_saved += 1
 
-            # Stop de loop als er geen nummers meer zijn
+            # Stop de loop als er geen nummers meer zijn volgens de 'next' url
             if not results.get('next'):
                 break
                 
             offset += limit
 
-    print(f"Klaar! De playlist is succesvol opgeslagen in: {output_file_path}")
+    print(f"Klaar! Er zijn {total_tracks_saved} nummers succesvol opgeslagen in: {output_file_path}")
 
-# Bepaal waar het bestand moet komen (in jouw 'Txt_Files' map)
-output_path = bi.os.path.join(project_dir, 'Txt_Files', 'Mijn_Gexporteerde_Songs.txt')
+sp, project_dir = GetItems()
 
-# Voer de functie uit (vervang JOUW_PLAYLIST_ID door de echte ID)
-SavePlaylistToTxt(sp, "JOUW_PLAYLIST_ID_HIER", output_path)
+output_path = bi.os.path.join(project_dir, 'Txt_Files', 'My_Song_URIs.txt')
+
+playlistID = "spotify:playlist:2VMUxzv5asxkLNcCpSBNBo"
+
+# Voer de functie uit
+SavePlaylistToTxt(sp, playlistID, output_path)
