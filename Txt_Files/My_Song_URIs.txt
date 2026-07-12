@@ -110,7 +110,6 @@
 "spotify:track:65uoaqX5qcjXZRheAj1qQT" # Dernière danse - Indila
 "spotify:track:2Yy0FsAV2I5VXU4xpph2WN" # Stay - Rihanna, Mikky Ekko
 "spotify:track:46IZ0fSY2mpAiktS3KOqds" # Easy On Me - Adele
-"spotify:track:4pqwGuGu34g8KtfN8LDGZm" # Voilà - André Rieu, Johann Strauss Orchestra, Emma Kok
 "spotify:track:2rbDhOo9Fh61Bbu23T2qCk" # Always Remember Us This Way - Lady Gaga
 "spotify:track:17phhZDn6oGtzMe56NuWvj" # Lose Control - Teddy Swims
 "spotify:track:3JvKfv6T31zO0ini8iNItO" # Another Love - Tom Odell
@@ -217,7 +216,6 @@
 "spotify:track:5jsw9uXEGuKyJzs0boZ1bT" # Stitches - Shawn Mendes
 "spotify:track:0bM09wrsJLZmxEGDdLctIu" # RUN! - Daniyel
 "spotify:track:1qbmS6ep2hbBRaEZFpn7BX" # Man I Need - Olivia Dean
-"spotify:track:1Q7EgiMOuwDcB0PJC6AzON" # Best Part (feat. H.E.R.) - Daniel Caesar, H.E.R.
 "spotify:track:3FAJ6O0NOHQV8Mc5Ri6ENp" # Heartbreak Anniversary - GIVĒON
 "spotify:track:4W3z0jlvHobe740IG2XaFt" # What About Us - Davina Michelle
 "spotify:track:0JWaEkQmU8oaSukOBCbrJC" # Ze Huilt Maar Ze Lacht - Maan
